@@ -4,8 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-Starter Template/
-/Starter Template
+Template/
+
 
 # testing
 /coverage
