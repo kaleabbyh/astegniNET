@@ -13,7 +13,7 @@ function Header() {
         <button id="members__button">
           <MenuIcon />
         </button>
-        <Link to="#">
+        <Link to="/newroom">
           <h3 id="logo">
             <img src={logo2_white} alt="Site Logo" />
             <span>አስጥኚNET</span>
@@ -25,7 +25,7 @@ function Header() {
           <MessageIcon />
         </button>
 
-        <Link class="nav__link" id="create__room__btn">
+        <Link to="/newroom" class="nav__link" id="create__room__btn">
           Create Room
           <AddCircleIcon />
         </Link>

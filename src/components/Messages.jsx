@@ -1,4 +1,6 @@
 import React from "react";
+import SchoolIcon from "@mui/icons-material/School";
+import { display } from "@mui/system";
 
 const Messages = () => {
   return (
@@ -6,119 +8,69 @@ const Messages = () => {
       <div id="messages">
         <div class="message__wrapper">
           <div class="message__body__bot">
-            <strong class="message__author__bot">🤖 Mumble Bot</strong>
-            <p class="message__text__bot">
-              Welcome to the room, Don't be shy, say hello!
-            </p>
+            <strong class="message__author__bot">
+              <SchoolIcon
+                style={{
+                  VerticalAlign: "text-bottom",
+                }}
+              />
+              ategniNET BOT
+            </strong>
+            <p class="message__text__bot">Welcome to the room, some one</p>
           </div>
         </div>
-
-        <div class="message__wrapper">
-          <div class="message__body__bot">
-            <strong class="message__author__bot">🤖 Mumble Bot</strong>
-            <p class="message__text__bot">Dennis Ivy just entered the room!</p>
-          </div>
-        </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Dennis Ivy</strong>
-            <p class="message__text">Does anyone know hen he will be back?</p>
-          </div>
-        </div>
-
-        <div class="message__wrapper">
-          <div class="message__body__bot">
-            <strong class="message__author__bot">🤖 Mumble Bot</strong>
-            <p class="message__text__bot">Sulamita just entered the room!</p>
-          </div>
-        </div>
-
-        <div class="message__wrapper">
-          <div class="message__body__bot">
-            <strong class="message__author__bot">🤖 Mumble Bot</strong>
-            <p class="message__text__bot">
-              Shahriar P. Shuvo just entered the room!
-            </p>
-          </div>
-        </div>
-
-        <div class="message__wrapper">
-          <div class="message__body">
-            <strong class="message__author">Sulamita</strong>
+            <strong class="message__author">kaleab</strong>
             <p class="message__text"> Great stream!</p>
           </div>
         </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Dennis Ivy</strong>
-            <p class="message__text">
-              {" "}
-              Convert RGB color codes to HEX HTML format for use in web design
-              and CSS.
-            </p>
-          </div>
-        </div>
-
-        <div class="message__wrapper">
-          <div class="message__body">
-            <strong class="message__author">Shahriar P. Shuvo 👋</strong>
-            <p class="message__text">Does anyone know hen he will be back?</p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Sulamita</strong>
-            <p class="message__text">Great stream!</p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Dennis Ivy</strong>
-            <p class="message__text">
-              Convert RGB color codes to HEX HTML format for use in web design
-              and CSS.
-            </p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Shahriar P. Shuvo 👋</strong>
-            <p class="message__text">Does anyone know hen he will be back?</p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Sulamita</strong>
-            <p class="message__text">Great stream!</p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
-
-        <div class="message__wrapper">
-          <div class="message__body__bot">
-            <strong class="message__author__bot">🤖 Mumble Bot</strong>
-            <p class="message__text__bot">👋 Sulamita has left the room</p>
-          </div>
-        </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Dennis Ivy</strong>
-            <p class="message__text">
-              Convert RGB color codes to HEX HTML format for use in web design
-              and CSS.
-            </p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
-
         <div class="message__wrapper">
           <div class="message__body">
-            <strong class="message__author">Shahriar P. Shuvo 👋</strong>
-            <p class="message__text">Does anyone know hen he will be back?</p>
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
+          </div>
+        </div>
+        <div class="message__wrapper">
+          <div class="message__body">
+            <strong class="message__author">kaleab</strong>
+            <p class="message__text"> Great stream!</p>
           </div>
         </div>
       </div>
